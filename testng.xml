@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes">
+    <test verbose="2" preserve-order="true" name="C:/Users/amanh/IdeaProjects/actitimeProject">
+        <classes>
+            <class name="testScript.AlertHandling">
+                <methods><include name="handelAlert"/></methods>
+            </class>
+            <class name="testScript.CreateCustomer">
+                <methods><include name="createCustomer"/></methods>
+            </class>
+            <class name="testScript.DropDown">
+            <methods><include name="handleDropdown"/></methods>
+        </class>
+        </classes>
+    </test>
+</suite>
